@@ -72,7 +72,7 @@ install_samza() {
   else
     mkdir -p $DOWNLOAD_CACHE_DIR
     pushd $DOWNLOAD_CACHE_DIR
-    git clone git://git.apache.org/incubator-samza.git
+    git clone git://github.com/apache/samza.git incubator-samza
     cd incubator-samza
     sed -i "s/2\.10/2.11/g" gradle.properties
     cp gradle/dependency-versions-scala-2.10.gradle gradle/dependency-versions-scala-2.11.gradle
