@@ -22,6 +22,7 @@ pub org/apache/samza/samza-api/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-core_2.11/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-kafka_2.11/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-kv-rocksdb_2.11/0.9.0-SNAPSHOT/*
+pub org/apache/samza/samza-kv-inmemory_2.11/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-kv_2.11/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-log4j/0.9.0-SNAPSHOT/*
 pub org/apache/samza/samza-yarn_2.11/0.9.0-SNAPSHOT/*
